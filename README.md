@@ -8,14 +8,14 @@ java is compiled and interpreted
 
 
 # Pseudocodigo
-1.start process
+'''1.start process
 2.Define btc, usd, change as integers;
 3.Define btc = 0.000022;
   4.Write “Enter the amount of dollars you want to convert:”;
   5.read usd;
   6.change <- (usd * btc);
   7.Write “The change to today is:”, change;
-8.end process
+8.end process'''
   
     
 
