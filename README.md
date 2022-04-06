@@ -8,8 +8,8 @@ java is compiled and interpreted
 
 
 # Pseudocodigo
-1.start process
-2.Define btc, usd, change as integers;
+### 1.start process
+### 2.Define btc, usd, change as integers;
 3.Define btc = 0.000022;
   4.Write “Enter the amount of dollars you want to convert:”;
   5.read usd;
