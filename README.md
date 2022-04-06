@@ -3,11 +3,11 @@
 
 Compiled languages are automatically prepared to run, a bit flexible and require compilation, while interpreted languages are cross-platform, easy to test, bugs are much easier to catch, an interpreter is required, their source code is publicly accessible and they are often slow.
 
-#Is Java compiled or interpreted, or both?
+# Is Java compiled or interpreted, or both?
 java is compiled and interpreted
 
 
-#Pseudocodigo
+# Pseudocodigo
 start process
 Define btc, usd, change as integers;
 Write “Enter the amount of dollars you want to convert:”;
