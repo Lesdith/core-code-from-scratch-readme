@@ -9,11 +9,11 @@ java is compiled and interpreted
 
 # Pseudocodigo
 start process
-Define btc, usd, change as integers;
-Write “Enter the amount of dollars you want to convert:”;
-read usd;
-change <- (usd* 0.000022);
-Write “The change to today is:”, change;
+  Define btc, usd, change as integers;
+  Write “Enter the amount of dollars you want to convert:”;
+  read usd;
+  change <- (usd* 0.000022);
+  Write “The change to today is:”, change;
 end process
   
     
