@@ -10,9 +10,9 @@ java is compiled and interpreted
 # Pseudocodigo
 start process
   Define btc, usd, change as integers;
+  Define btc = 0.000022;
   Write “Enter the amount of dollars you want to convert:”;
   read usd;
-  read btc;
   change <- (usd * btc);
   Write “The change to today is:”, change;
 end process
