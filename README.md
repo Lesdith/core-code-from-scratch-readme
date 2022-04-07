@@ -26,7 +26,14 @@ My date of birth is 12/23/2023
 1100/10111/11111000111
 
 It is solved by dividing the value by two, decimal values are not taken, only integer values, in the event that we get a decimal value, it means that we have 1 left over.
-- 23 entre 2 = 11 -> 11*2 = 22 nos sobra 1 porque 23-22=1
+-23 entre 2 = 11 -> 11*2 = 22 nos sobra 1 porque 23-22=1
+-11 entre 2 = 5 sobra 1
+-5 entre 2 = 2 sobra 1 
+-2 entre 2 = 1 sobra 0
+-1 entre 2 = 0 sobra 1
+
+--we order them from bottom to top
+---Result:  10111
 
     
 
