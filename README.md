@@ -63,6 +63,7 @@ It is solved by dividing the value by two, decimal values are not taken, only in
  ```
  MIPS
  ```
+ # Ejercicio 1
  
  .data
         welcome: .asciiz "\nSum of 2 numbers\n"
@@ -100,7 +101,7 @@ It is solved by dividing the value by two, decimal values are not taken, only in
 
               # adding the user numbers
               add $t2, $t0, $t1
-
+              
               # showing result number
               li $v0, 4
               la $a0, result
