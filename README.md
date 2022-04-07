@@ -21,9 +21,9 @@ java is compiled and interpreted
 ```
 #Your date of birth in the matrix?
 ```
-My date of birth is 12/23/2023
+**My date of birth is 12/23/2023**
 
-1100/10111/11111000111
+**1100/10111/11111000111**
 
 It is solved by dividing the value by two, decimal values are not taken, only integer values, in the event that we get a decimal value, it means that we have 1 left over.
 
