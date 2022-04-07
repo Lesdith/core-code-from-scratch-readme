@@ -65,50 +65,59 @@ It is solved by dividing the value by two, decimal values are not taken, only in
  ```
  # Ejercicio 1
  
- .data
-        welcome: .asciiz "\nSum of 2 numbers\n"
+   .data
+        title: .asciiz "\nSum of 2 numbers\n"
         result: .asciiz "\nResult:"
-        number_one_msg: .asciiz "\nEnter a number: "
-        number_two_msg: .asciiz "\nEnter a number: "
+        number1: .asciiz "\nEnter a number: "
+        number2: .asciiz "\nEnter a number: "
   .text
         main:
-              # welcome message
+              # Title
               li $v0, 4
-              la $a0, welcome
+              la $a0, title
               syscall
 
-              # user input
+              # Pedir al usuario que agregue un numero
               li $v0, 4
-              la $a0, number_one_msg
+              la $a0, number1
               syscall
 
               li $v0, 5
               syscall
 
-              # saving user input
+              # Guardar datos del Usuario
               move $t0, $v0
 
-              # user input
+              # Pedir al usuario que agregue otro numero
               li $v0, 4
-              la $a0, number_two_msg
+              la $a0, number2
               syscall
 
               li $v0, 5
               syscall
 
-              # saving user input
+              # Guardar datos del usuario
               move $t1, $v0
 
-              # adding the user numbers
+              # Sumar valores
               add $t2, $t0, $t1
-              
-              # showing result number
+
+              # Mostrar resultado
               li $v0, 4
               la $a0, result
               syscall
 
-              # printing number
+              # Imprimir el numero
               li $v0, 1
               move $a0, $t2
               syscall
-
+              
+              
+ # Ejercicio 2
+   .data
+	      name: .asciiz "\nMi Nombre es: Lesvia Judith Terraza\n"
+  .text
+	      main:
+              li $v0, 4
+              la $a0, name
+              syscall
