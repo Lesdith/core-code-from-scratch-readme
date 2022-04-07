@@ -99,7 +99,7 @@ It is solved by dividing the value by two, decimal values are not taken, only in
               # save user data
               move $t1, $v0
 
-              # Sumar valores
+              # adding up
               add $t2, $t0, $t1
 
               # show result
