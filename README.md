@@ -63,7 +63,7 @@ It is solved by dividing the value by two, decimal values are not taken, only in
  ```
  MIPS
  ```
- # Ejercicio 1
+ # Exercise 1
  
    .data
         title: .asciiz "\nSum of 2 numbers\n"
@@ -77,7 +77,7 @@ It is solved by dividing the value by two, decimal values are not taken, only in
               la $a0, title
               syscall
 
-              # Pedir al usuario que agregue un numero
+              # Ask user to enter a number
               li $v0, 4
               la $a0, number1
               syscall
@@ -85,10 +85,10 @@ It is solved by dividing the value by two, decimal values are not taken, only in
               li $v0, 5
               syscall
 
-              # Guardar datos del Usuario
+              # save user data
               move $t0, $v0
 
-              # Pedir al usuario que agregue otro numero
+              # Ask user to enter a number
               li $v0, 4
               la $a0, number2
               syscall
@@ -96,24 +96,24 @@ It is solved by dividing the value by two, decimal values are not taken, only in
               li $v0, 5
               syscall
 
-              # Guardar datos del usuario
+              # save user data
               move $t1, $v0
 
               # Sumar valores
               add $t2, $t0, $t1
 
-              # Mostrar resultado
+              # show result
               li $v0, 4
               la $a0, result
               syscall
 
-              # Imprimir el numero
+              # Print result
               li $v0, 1
               move $a0, $t2
               syscall
               
               
- # Ejercicio 2
+ # Exercise 2
    .data
 	      name: .asciiz "\nMi Nombre es: Lesvia Judith Terraza\n"
   .text
