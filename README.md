@@ -152,10 +152,11 @@ while (i <=100){
 # Bad Code
 ```
 # It had double parentheses in the if and only 1 is used
+# in the if for the condition to be fulfilled it would be true if the value is identical to true
 
 var cond = false;
 
-if (cond = true) {
+if (cond == true) {
   console.log('The cond variable is true');
 } else {
   console.log('The cond variable is false');
