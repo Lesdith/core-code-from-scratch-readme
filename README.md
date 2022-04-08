@@ -165,12 +165,12 @@ if (cond == true) {
 
 #Exercice 2
 var n = 100;
-var multip = n %10;
+var multiple = n % 10;
 
 if (n == 100) {
   console.log('This is a special number!');
 }
-else if (n < 1000  n == 0) {
+else if (n < 1000 && multiple == 0) {
   console.log('This number is almost special');
 }
 else{
