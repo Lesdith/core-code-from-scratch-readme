@@ -121,3 +121,42 @@ It is solved by dividing the value by two, decimal values are not taken, only in
               li $v0, 4
               la $a0, name
               syscall
+	    
+
+ ```
+ # Print Special Numbers
+ ```
+ # Using a for loop
+ var i;
+ for(i=0; i<=100; i+=2){
+ 	console.log(i);
+ }
+	
+#using while loop
+var i;
+i=2;
+while (i <=100){
+   console.log(i);
+   i+=2;
+   }
+   
+ #using Do While 
+ var i;
+ i=0;
+ do{
+    i++2;
+    }
+ while(i<=100);
+
+```
+# Bad Code
+```
+# It had double parentheses in the if and only 1 is used
+
+var cond = false;
+
+if (cond = true) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
