@@ -151,6 +151,7 @@ while (i <=100){
 ```
 # Bad Code
 ```
+#Exercice 1
 # It had double parentheses in the if and only 1 is used
 # in the if for the condition to be fulfilled it would be true if the value is identical to true
 
@@ -160,4 +161,18 @@ if (cond == true) {
   console.log('The cond variable is true');
 } else {
   console.log('The cond variable is false');
+}
+
+#Exercice 2
+var n = 100;
+var multip = n %10;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+else if (n < 1000  n == 0) {
+  console.log('This number is almost special');
+}
+else{
+  console.log('Just a regular number');
 }
