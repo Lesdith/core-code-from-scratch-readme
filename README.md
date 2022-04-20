@@ -178,5 +178,48 @@ else{
 }
 
 ```
-#Semana 2
+# Semana 2
 ```
+
+# Javascript 
+## Multiply 
+function multiply(a, b){
+  return a * b;
+}
+
+## ASCII Total
+function uniTotal (string) {
+  let t = 0;
+  for (let i = 0, length = string.length; i<length; i++ ){
+    t += string[i].charCodeAt();
+  }
+    
+  return t;
+}
+
+## get character from ASCII Value
+function getChar(c){
+  // funcion  que permite tomar un numero y convertirlo en
+  //en un valor ASCII
+  
+  return String.fromCharCode(c);
+  
+}
+
+## Binary Addition 
+function addBinary(a,b) {
+  let suma = a + b; 
+  return (suma).toString(2);
+
+}
+
+## Student's Final Grade
+function finalGrade (exam, projects) {
+  if (exam > 90 || projects > 10)  
+    return 100;
+  if (exam > 75 && projects == 5)
+    return 90;
+  if (exam >50 && projects >=2)
+    return 75;
+  return 0;
+}
