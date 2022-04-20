@@ -190,7 +190,8 @@ function multiply(a, b){
 ## ASCII Total
 function uniTotal (string) {
   let t = 0;
-  for (let i = 0, length = string.length; i<length; i++ ){
+  let caracteres = string.length;
+  for (let i = 0; i<caracteres; i++ ){
     t += string[i].charCodeAt();
   }
     
@@ -217,7 +218,7 @@ function addBinary(a,b) {
 function finalGrade (exam, projects) {
   if (exam > 90 || projects > 10)  
     return 100;
-  if (exam > 75 && projects == 5)
+  if (exam > 75 && projects >= 5)
     return 90;
   if (exam >50 && projects >=2)
     return 75;
