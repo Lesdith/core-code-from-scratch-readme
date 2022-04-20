@@ -176,3 +176,7 @@ else if (n < 1000 && multiple == 0) {
 else{
   console.log('Just a regular number');
 }
+
+```
+#Semana 2
+```
