@@ -224,3 +224,42 @@ function finalGrade (exam, projects) {
     return 75;
   return 0;
 }
+
+## Holiday VIII - Duty Free
+function dutyFree(normPrice, discount, hol){
+//Botellas libres de impuestos 
+//Cubrir costo de Vacaciones 
+//Precio de Botella despues de descuento 
+
+let totalDiscount = (normPrice * discount)/100;
+let totalHoliday  = hol / totalDiscount;
+  
+let total = Math.floor(totalHoliday);
+  
+return total;
+  
+}
+
+## Twice as old
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  // your code here
+    
+  let age1 = (sonYearsOld * 2);
+  let age2 = (dadYearsOld - age1);
+  
+  return Math.abs(age2);
+}
+
+## Fake Binary
+function fakeBin(x){
+  let salida = '';
+  for (let i = 0; i < x.length; i++){
+    if (parseInt(x[i]) < 5){
+     salida += '0';
+   }
+   else if (parseInt(x[i]) > 4){
+     salida += '1';
+   }
+ }
+  return salida;
+}
