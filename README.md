@@ -250,6 +250,24 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs(age2);
 }
 
+## Valid Spacing
+function validSpacing(s) {
+  if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' '){
+    return false;
+  }
+for(let i=0; i < s.length; i++ ){
+ if( s.charAt(i) === ' '){
+  if(i !=0 && s.charAt(i-1) === ' '){
+    return false;
+  }
+   //Si es mentira 
+   if(i !=(s.length - 1) && s.charAt() === ' '){
+    return false;
+     }
+ }
+}
+  return true;
+}
 ## Fake Binary
 function fakeBin(x){
   let salida = '';
@@ -263,3 +281,4 @@ function fakeBin(x){
  }
   return salida;
 }
+
