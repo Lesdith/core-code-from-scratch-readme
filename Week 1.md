@@ -7,7 +7,7 @@ Compiled languages are automatically prepared to run, a bit flexible and require
 java is compiled and interpreted
 
 
-# Pseudocodigo <img src="https://i.gifer.com/CJCG.gif" width="50">
+# Pseudocodigo 💻
 ```
 1.start process
 2.Define btc, usd, change as integers;
