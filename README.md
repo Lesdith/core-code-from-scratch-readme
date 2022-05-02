@@ -14,14 +14,9 @@
 ```javascript
 const thai = {
   pronouns: "she" | "her",
-  code: [PHP, C#,Javascript, HTML],
-  tools: [React, Redux, Node, Storybook, Styled-Components, Jest, Docker],
-  techCommunities: {
-                        coorganizer: "AfroPython",
-                        speaker: "Latinity",
-                        mentor: "EducaTRANSforma"
-                      },
- challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
+  code: [PHP,C#,Javascript,HTML],
+  tools: [ASP.NET,Laravel],
+ challenge: "I am doing one challenge focused on Javascrip, Typescript, Node.js y React."
 }
 ```
 
