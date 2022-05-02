@@ -1,4 +1,35 @@
 # core-code-from-scratch-readme
+<h2> Hi, I'm Thai Braga! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/ieyl9zmCjO4b4t6qoY/giphy.gif" width="230">
+<p><em>Software Enginner at <a href="http://www.unb.br">University of Brasilia</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>Developer Consultant at <a href="https://www.thoughtworks.com">ThoughtWorks</a><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
+</em></p>
+
+[![Twitter: ThaiiBraga](https://img.shields.io/twitter/follow/ThaiiBraga?style=social)](https://twitter.com/ThaiiBraga)
+[![Linkedin: thaianebraga](https://img.shields.io/badge/-thaianebraga-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thaianebraga/)](https://www.linkedin.com/in/thaianebraga/)
+[![GitHub Thaiane](https://img.shields.io/github/followers/thaiane?label=follow&style=social)](https://github.com/Thaiane)
+
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+
+```javascript
+const thai = {
+  pronouns: "she" | "her",
+  code: [Javascript, Typescript, HTML, CSS, Ruby, Python, Java],
+  tools: [React, Redux, Node, Storybook, Styled-Components, Jest, Docker],
+  architecture: ["microservices", "event-driven", "design system pattern"],
+  techCommunities: {
+                        coorganizer: "AfroPython",
+                        speaker: "Latinity",
+                        mentor: "EducaTRANSforma"
+                      },
+ challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
+}
+```
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+
+---
+
 # I'm Lesvia, Systems Engineer. Currently I have only developed University Projects, I would like to be able to specialize and expand my knowledge as a software developer that helps solve problems in multinational companies. I am a self-taught and committed person who likes challenges.
 
 Compiled languages are automatically prepared to run, a bit flexible and require compilation, while interpreted languages are cross-platform, easy to test, bugs are much easier to catch, an interpreter is required, their source code is publicly accessible and they are often slow.
@@ -18,164 +49,7 @@ java is compiled and interpreted
   7.Write “The change to today is:”, change;
 8.end process
 '''
-```
-# Your date of birth in the matrix?
-```
-** My date of birth is 12/23/2023 **
 
-**1100/10111/11111000111**
-
-It is solved by dividing the value by two, decimal values are not taken, only integer values, in the event that we get a decimal value, it means that we have 1 left over.
-
-- 23 / 2 = 11 -> 11*2 = 22 residue 1 because 23-22=1
-- 11 / 2 = 5 residue 1
-- 05 / 2 = 2 residue 1 
-- 02 / 2 = 1 residue 0
-- 01 / 2 = 0 residue 1
-
--- we order them from bottom to top
---- Result:  10111
-
-- 12 / 2 = 6 residue 0
-- 6 / 2 = 3 residue 0
-- 3 / 2 = 1 residue 1
-- 1 / 2 = 0 residue 1
-
--- we order them from bottom to top
---- Result:  1100
-
-- 1991 / 2 = 995 residue 1
-- 995 / 2 = 497 residue 1
-- 497 / 2 = 248 residue 1
-- 248 / 2 = 124 residue 0
-- 124 / 2 = 62 residue 0
-- 62 / 2 = 31 residue 0
-- 31 / 2 = 15 residue 1
-- 15 / 2 = 7 residue 1
-- 07 / 2 = 3 residue 1
-- 03 / 2 = 1 residue 1
-- 01 / 2 = 0 residue 1
-
--- we order them from bottom to top
---- Result:  11111000111
-
-
- ```
- MIPS
- ```
- # Exercise 1
- 
-   .data
-        title: .asciiz "\nSum of 2 numbers\n"
-        result: .asciiz "\nResult:"
-        number1: .asciiz "\nEnter a number: "
-        number2: .asciiz "\nEnter a number: "
-  .text
-        main:
-              # Title
-              li $v0, 4
-              la $a0, title
-              syscall
-
-              # Ask user to enter a number
-              li $v0, 4
-              la $a0, number1
-              syscall
-
-              li $v0, 5
-              syscall
-
-              # save user data
-              move $t0, $v0
-
-              # Ask user to enter a number
-              li $v0, 4
-              la $a0, number2
-              syscall
-
-              li $v0, 5
-              syscall
-
-              # save user data
-              move $t1, $v0
-
-              # adding up
-              add $t2, $t0, $t1
-
-              # show result
-              li $v0, 4
-              la $a0, result
-              syscall
-
-              # Print result
-              li $v0, 1
-              move $a0, $t2
-              syscall
-              
-              
- # Exercise 2
-   .data
-	      name: .asciiz "\nMi Nombre es: Lesvia Judith Terraza\n"
-  .text
-	      main:
-              li $v0, 4
-              la $a0, name
-              syscall
-	    
-
- ```
- # Print Special Numbers
- ```
- # Using a for loop
- var i;
- for(i=0; i<=100; i+=2){
- 	console.log(i);
- }
-	
-#using while loop
-var i;
-i=2;
-while (i <=100){
-   console.log(i);
-   i+=2;
-   }
-   
- #using Do While 
- var i;
- i=0;
- do{
-    i++2;
-    }
- while(i<=100);
-
-```
-# Bad Code
-```
-#Exercice 1
-# It had double parentheses in the if and only 1 is used
-# in the if for the condition to be fulfilled it would be true if the value is identical to true
-
-var cond = false;
-
-if (cond == true) {
-  console.log('The cond variable is true');
-} else {
-  console.log('The cond variable is false');
-}
-
-#Exercice 2
-var n = 100;
-var multiple = n % 10;
-
-if (n == 100) {
-  console.log('This is a special number!');
-}
-else if (n < 1000 && multiple == 0) {
-  console.log('This number is almost special');
-}
-else{
-  console.log('Just a regular number');
-}
 
 ```
 # Semana 2
