@@ -1,7 +1,4 @@
-
-
-
-# Monday
+# Monday 🗓️
 ## Kata Who Likes it?
 
 ```
@@ -80,7 +77,7 @@ decodeMorse = function(morseCode){
 }
 ```
 
-# wednesday
+# wednesday 🗓️
 ## Kata Valid Parentheses
 
 ```
@@ -119,7 +116,7 @@ function toCamelCase(str){
   return result;
 }
 ```
-# Thursday 
+# Thursday 🗓️
 ## Kata Fold an array 
 
 ```
