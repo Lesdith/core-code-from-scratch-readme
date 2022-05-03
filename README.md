@@ -1,11 +1,12 @@
 # core-code-from-scratch-readme
 <h2> Hi, I'm Lesvia! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+
 <p><em>Software Enginner at <a href="https://www.umg.edu.gt/">University Mariano Galvez de Guatemala</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
 </em></p>
 
 
 
-
+[![image]](https://i.gifer.com/6mz.gif)
 [![Twitter: Lesdiths](https://img.shields.io/twitter/follow/Lesdits?style=social)](https://twitter.com/lesdits)
 [![Linkedin: Lesdith](https://img.shields.io/badge/-lesdith-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lesdith-terrasandoval/)](https://www.linkedin.com/in/lesdith-terrasandoval//)
 [![GitHub Thaiane](https://img.shields.io/github/followers/lesdith?label=follow&style=social)](https://github.com/Lesdith)
