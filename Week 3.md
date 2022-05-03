@@ -146,7 +146,7 @@ var encryptThis = function(text) {
   });
   return encrypt.join(' ');
 }
-``
+```
 
   
 
