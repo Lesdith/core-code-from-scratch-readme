@@ -1,9 +1,10 @@
 
 
+
+# Monday
+## Kata Who Likes it?
+
 ```
-# Semana 3
-```
-## Who Likes it?
 function likes(names) {
   names = names || [];
   switch(names.length){
@@ -14,16 +15,19 @@ function likes(names) {
     default:  return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
     }
 }
+```
 
-## Your order, please
+## Kata Your order, please
+```
 function order(words){
   return words.split(' ').sort(function(a,b){
     return a.match (/\d/) - b.match(/\d/);
   }).join(' ');
 }
+```
 
-
-## Bit Counting 
+## Kata Bit Counting 
+```
 var countBits = function(n) {
   // Program Me 
   let binario = (n.toString(2));
@@ -33,17 +37,22 @@ var countBits = function(n) {
   }
   return temporal;
 };
+```
 
-##Simple Pig latin 
+# Tuesday
+## Kata Simple Pig latin 
+
+```
 function pigIt(str) {
   return str.replace(/\w+/g, (w) => {
     return w.slice(1) + w[0] + 'ay';
   });
 }
+```
 
-## Counting Duplicates
+## Kata Counting Duplicates
+```
 function duplicateCount(text){
-  //...
   let newText = text.toLowerCase();
   let object = {};
   let temporary = 0;
@@ -56,8 +65,10 @@ function duplicateCount(text){
     }
   return temporary;
 }
+```
 
-## Decode the Morse code
+## Kata Decode the Morse code
+```
 decodeMorse = function(morseCode){
    function decodeMorseLetter(letter) {
     return MORSE_CODE[letter];
@@ -67,6 +78,79 @@ decodeMorse = function(morseCode){
   }
   return morseCode.trim().split('   ').map(decodeMorseWord).join(' ');
 }
+```
+
+# wednesday
+## Kata Valid Parentheses
+
+```
+function validParentheses(parens) {
+  // your code here ..
+  let parentheses = 0;
+  for (let i = 0; i < parens.length && parentheses >= 0; i ++){
+    parentheses += (parens[i] == '(') ? 1 : -1;
+  }
+  return (parentheses ==0);
+}
+```
+
+## Kata Convert string to camel case
+```
+function toCamelCase(str){
+  var expresion = /[-_]\w/ig;
+  
+  return str.replace(expresion,function(match){
+     return match.charAt(1).toUpperCase();
+  });
+  }
+  ```
+  ## Kata Unique in order
+  
+  ```
+  function uniqueInOrder(iterable){
+  //your code here - remember iterable can be a string or an array
+  let result = [];
+  
+  for(let i = 0; i < iterable.length; i++){
+    if(iterable[i] !== iterable[i + 1]){
+      result.push(iterable[i])
+    }
+  }
+  return result;
+}
+```
+# Thursday 
+## Kata Fold an array 
+
+```
+function foldArray(a, n) {
+  const r = [],
+    c = a.slice();
+  while (c.length) r.push(c.pop() + (c.shift() || 0));
+  return n - 1 ? foldArray(r, n - 1) : r;
+}
+```
+## Kata Encrypt this
+
+```
+var encryptThis = function(text) {
+  let arr = text.split(' ');
+  let encrypt = arr.map((str) => {
+    if(str.length == 1) return `${str.charCodeAt()}`;
+    if(str.length == 2) return `${str[0].charCodeAt()}${str[1]}`;
+    let rest = str.slice(1);
+    let restFirst = rest[0];
+    let restLast = rest[rest.length-1];
+    let restRest = rest.slice(1,rest.length-1);
+    return `${str[0].charCodeAt()}${restLast}${restRest}${restFirst}`;
+  });
+  return encrypt.join(' ');
+}
+``
+
+  
+
+
 
 
 
