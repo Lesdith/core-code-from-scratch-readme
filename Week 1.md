@@ -27,6 +27,7 @@ java is compiled and interpreted
 #### Your team has just seen the movie "Matrix" and you have been asked, how the number of your year of birth would be written in binary. You must learn how to translate your date of birth into binary and show your team. (Do not use a webpage or a tool to convert your date of birth)
 
 **My date of birth is 12/23/2023**
+
 **1100/10111/11111000111**
 
 It is solved by dividing the value by two, decimal values are not taken, only integer values, in the event that we get a decimal value, it means that we have 1 left over.
