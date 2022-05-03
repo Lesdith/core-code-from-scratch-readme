@@ -1,6 +1,5 @@
 # core-code-from-scratch-readme
 <h2> Hi, I'm Lesvia! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
-<img align='right' src="https://i.gifer.com/6mz.gif" width="230">
 <p><em>Software Enginner at <a href="https://www.umg.edu.gt/">University Mariano Galvez de Guatemala</a><img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br>
 </em></p>
 
