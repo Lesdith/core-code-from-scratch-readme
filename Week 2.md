@@ -1,5 +1,5 @@
 
-# Tuesday 
+# Tuesday 🗓️
 ## Kata Multiply 
 ### Description 
 #### This code does not execute properly. Try to figure out why.
@@ -65,7 +65,7 @@ function finalGrade (exam, projects) {
   return 0;
 }
 ```
-# Wednesday
+# Wednesday 🗓️
 ## Kata Holiday VIII - Duty Free
 
 ```
@@ -137,7 +137,7 @@ function fakeBin(x){
 }
 ```
 
-# Thursday 
+# Thursday 🗓️
 ## Kata Remove All Exclamation Marks From The End Of Sentence
 
 ```
