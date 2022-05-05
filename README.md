@@ -1,7 +1,7 @@
 # core-code-from-scratch-readme
 <h2> Hi, I'm Lesvia! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 <p><em>Software Enginner at <a href="https://www.umg.edu.gt/">University Mariano Galvez de Guatemala</a>
- <img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br></em></p>
+<img src="https://media.giphy.com/media/fYSnHlufseco8Fh93Z/giphy.gif" width="30"></br></em></p>
 
 
 
@@ -24,7 +24,8 @@ const thai = {
 
 ---
 
-# I'm Lesvia, Systems Engineer. Currently I have only developed University Projects, I would like to be able to specialize and expand my knowledge as a software developer that helps solve problems in multinational companies. I am a self-taught and committed person who likes challenges.
+<h2>
+<p> <center> I'm Lesvia, Systems Engineer. Currently I have only developed University Projects, I would like to be able to specialize and expand my knowledge as a software developer that helps solve problems in multinational companies. I am a self-taught and committed person who likes challenges.</center> </p></h2>
 
 
 
