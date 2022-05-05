@@ -3,7 +3,8 @@
 ## Kata Multiply 
 ### Description 
 #### This code does not execute properly. Try to figure out why.
-```
+
+```javascript
 function multiply(a, b){
   return a * b;
 }
@@ -12,7 +13,8 @@ function multiply(a, b){
 ## Kata ASCII Total
 ### Description
 #### You'll be given a string, and have to return the sum of all characters as an int. The function should be able to handle all ASCII characters.
-```
+
+```javascript
 function uniTotal (string) {
   let t = 0;
   let caracteres = string.length;
@@ -28,7 +30,7 @@ function uniTotal (string) {
 ### Description
 #### Write a function get_char() / getChar() which takes a number and returns the corresponding ASCII char for that value.
 
-```
+```javascript
 function getChar(c){
   // funcion  que permite tomar un numero y convertirlo en
   //en un valor ASCII
@@ -42,7 +44,7 @@ function getChar(c){
 ### Description 
 #### Implement a function that adds two numbers together and returns their sum in binary. The conversion can be done before, or after the addition. The binary number returned should be a string.Examples:(Input1, Input2 --> Output (explanation)))
 
-```
+```javascript
 function addBinary(a,b) {
   let suma = a + b; 
   return (suma).toString(2);
@@ -54,7 +56,7 @@ function addBinary(a,b) {
 ### Description 
 #### Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.
 
-```
+```javascript
 function finalGrade (exam, projects) {
   if (exam > 90 || projects > 10)  
     return 100;
@@ -68,7 +70,7 @@ function finalGrade (exam, projects) {
 # Wednesday 🗓️
 ## Kata Holiday VIII - Duty Free
 
-```
+```javascript
 function dutyFree(normPrice, discount, hol){
 //Botellas libres de impuestos 
 //Cubrir costo de Vacaciones 
@@ -87,7 +89,7 @@ return total;
 
 ## Kata Twice as old
 
-```
+```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here
     
@@ -100,7 +102,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 
 ## Kata Valid Spacing
 
-```
+```javascript
 function validSpacing(s) {
   if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' '){
     return false;
@@ -122,7 +124,7 @@ for(let i=0; i < s.length; i++ ){
 
 ## Kata Fake Binary
 
-```
+```javascript
 function fakeBin(x){
   let salida = '';
   for (let i = 0; i < x.length; i++){
@@ -140,7 +142,7 @@ function fakeBin(x){
 # Thursday 🗓️
 ## Kata Remove All Exclamation Marks From The End Of Sentence
 
-```
+```javascript
 function remove (string) {  
   let result = string; 
   
@@ -153,7 +155,7 @@ function remove (string) {
 ```
 ## Kata Vowel Remover 
 
-```
+```javascript
 function shortcut (string) {
   
   // el / +/g  nos sirve para reemplazar en este caso 
@@ -163,7 +165,7 @@ function shortcut (string) {
 ```
 ## Kata Rock Paper Scissors
 
-```
+```javascript
 function rps (p1, p2){
   if (p1 === p2){
     return "Draw!";
@@ -182,7 +184,7 @@ function rps (p1, p2){
 ```
 
 ## Kata Persistent Bugger 
-```
+```javascript
 function persistence(num) {
    //code me
   let n = num;
