@@ -1,7 +1,7 @@
 # Monday 🗓️
 ## Kata Who Likes it?
 
-```
+```javascript
 function likes(names) {
   names = names || [];
   switch(names.length){
@@ -15,7 +15,7 @@ function likes(names) {
 ```
 
 ## Kata Your order, please
-```
+```javascript
 function order(words){
   return words.split(' ').sort(function(a,b){
     return a.match (/\d/) - b.match(/\d/);
@@ -24,7 +24,7 @@ function order(words){
 ```
 
 ## Kata Bit Counting 
-```
+```javascript
 var countBits = function(n) {
   // Program Me 
   let binario = (n.toString(2));
@@ -39,7 +39,7 @@ var countBits = function(n) {
 # Tuesday
 ## Kata Simple Pig latin 
 
-```
+```javascript
 function pigIt(str) {
   return str.replace(/\w+/g, (w) => {
     return w.slice(1) + w[0] + 'ay';
@@ -48,7 +48,7 @@ function pigIt(str) {
 ```
 
 ## Kata Counting Duplicates
-```
+```javascript
 function duplicateCount(text){
   let newText = text.toLowerCase();
   let object = {};
@@ -65,7 +65,7 @@ function duplicateCount(text){
 ```
 
 ## Kata Decode the Morse code
-```
+```javascript
 decodeMorse = function(morseCode){
    function decodeMorseLetter(letter) {
     return MORSE_CODE[letter];
@@ -80,7 +80,7 @@ decodeMorse = function(morseCode){
 # wednesday 🗓️
 ## Kata Valid Parentheses
 
-```
+```javascript
 function validParentheses(parens) {
   // your code here ..
   let parentheses = 0;
@@ -92,7 +92,7 @@ function validParentheses(parens) {
 ```
 
 ## Kata Convert string to camel case
-```
+```javascript
 function toCamelCase(str){
   var expresion = /[-_]\w/ig;
   
@@ -103,7 +103,7 @@ function toCamelCase(str){
   ```
   ## Kata Unique in order
   
-  ```
+  ```javascript
   function uniqueInOrder(iterable){
   //your code here - remember iterable can be a string or an array
   let result = [];
@@ -119,7 +119,7 @@ function toCamelCase(str){
 # Thursday 🗓️
 ## Kata Fold an array 
 
-```
+```javascript
 function foldArray(a, n) {
   const r = [],
     c = a.slice();
@@ -129,7 +129,7 @@ function foldArray(a, n) {
 ```
 ## Kata Encrypt this
 
-```
+```javascript
 var encryptThis = function(text) {
   let arr = text.split(' ');
   let encrypt = arr.map((str) => {
