@@ -1,4 +1,7 @@
+# Monday 🗓️
+## Kata Who Likes it?
 
+```typescript
 export interface User{
     name: string;
     age: number;
@@ -25,3 +28,4 @@ export function logPerson(user: User) {
 }
 users.forEach(logPerson);
 console.log('User:');
+```
