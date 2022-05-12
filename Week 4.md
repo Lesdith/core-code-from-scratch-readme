@@ -130,7 +130,7 @@ export function logPerson(person: Person) {
 persons.forEach(logPerson);
 
 ```
-## Exercise: No.4 OBJECTS: Figure out how to help TypeScript understand types inthis situation and apply necessary fixes.
+## Exercise: No.4 UNIONS: Figure out how to help TypeScript understand types inthis situation and apply necessary fixes.
 
 ``` typescript
 interface User {
