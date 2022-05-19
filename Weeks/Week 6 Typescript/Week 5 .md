@@ -1,3 +1,4 @@
+
 <H2>Week goal</H2>
 Lear about Typescript and Object Oriented Programming introduction
 <H2>Week subtopics</H2>
@@ -17,7 +18,6 @@ Lear about Typescript and Object Oriented Programming introduction
 </ul>
 
   
-
 
 
 
