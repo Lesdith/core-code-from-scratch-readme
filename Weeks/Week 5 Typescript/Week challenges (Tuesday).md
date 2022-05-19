@@ -6,7 +6,9 @@
 <ul> <a href="https://blog.logrocket.com/types-vs-interfaces-in-typescript/">Type vs interface in TypeScript</a></ul>
 
 ## Exercise No.1 OBJECT TYPE: Given the data, define the interface "User" and use it accordingly.
+<a href="https://typescript-exercises.github.io/#exercise=1">Object Type</a>
 
+### SOLUTION
 ```typescript
 export interface User{
     name: string;
@@ -36,7 +38,9 @@ users.forEach(logPerson);
 console.log('User:');
 ```
 ## Exercise No. 2 OBJECT TYPE "Person" is missing, please define it and use it in persons array and logPerson function in order to fix all the TS errors.
+<a href="https://typescript-exercises.github.io/#exercise=2&file=%2Findex.ts">Object Type</a>
 
+### SOLUTION
 ``` typescript
 interface User {
     name: string;
@@ -84,7 +88,9 @@ persons.forEach(logPerson);
 ```
 
 ## Exercise No. 3 UNIONS: Fix type errors in logPerson function. logPerson function should accept both User and Admin and should output relevant information according tothe input: occupation for User and role for Admin.
+<a href="https://typescript-exercises.github.io/#exercise=3&file=%2Findex.ts">Unions</a>
 
+### SOLUTION
 ``` typescript
 interface User {
     name: string;
@@ -137,7 +143,9 @@ persons.forEach(logPerson);
 
 ```
 ## Exercise: No.4 UNIONS: Figure out how to help TypeScript understand types inthis situation and apply necessary fixes.
+<a href="https://typescript-exercises.github.io/#exercise=4&file=%2Findex.ts">Unions</a>
 
+### SOLUTION
 ``` typescript
 interface User {
     type: 'user';
