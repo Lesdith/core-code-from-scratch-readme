@@ -49,3 +49,43 @@ function find(rats) {
 
 }
 ```
+
+### KATA #2
+Array.diff
+
+<p>Array.diff
+Your goal in this kata is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b keeping their order.
+
+***arrayDiff([1,2],[1]) == [2]***
+If a value is present in b, all of its occurrences must be removed from the other:
+
+***arrayDiff([1,2,2,2,3],[2]) == [1,3]***</p>
+
+Hint: think of rats as a certain representation of the number of the bottle...</p>
+
+### Helpful Resources 📖
+<ul>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter - MDN</a> </li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf">indexOf - MND</a> </li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">includes- MDN</a> </li> 
+</ul>
+
+### More Help?
+Slack us 😉
+
+## Solutions
+### CORE CODE 
+```javascript
+function array_diff(a, b) {
+  return a.filter((e) => !b.includes(e));
+}
+```
+
+### My Solution
+```javascript
+function arrayDiff(a, b) {
+  return a.filter((diff) => !b.includes(diff));
+}
+```
