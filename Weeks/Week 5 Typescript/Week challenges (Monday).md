@@ -73,7 +73,9 @@ If
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift">shift - MDN</a> </li> 
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse">reverse - MDN</a> </li> 
 </ul> 
+
 ### More Help?
+
 Slack us 😉
 
 ## Solutions
