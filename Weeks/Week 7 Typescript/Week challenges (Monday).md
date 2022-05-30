@@ -303,5 +303,5 @@ export class Main {
 
 ### Continuation
 
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Tuesday)%20.md"> Week challenges (Tuesday) 💻
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻
 </a>
