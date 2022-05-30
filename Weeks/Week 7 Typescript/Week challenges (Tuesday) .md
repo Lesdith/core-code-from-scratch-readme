@@ -146,9 +146,40 @@ showMainMenu: Here you will show the main menu to the user, this method would be
 </ul>
 
 
-### TIP 📖
+## TIP 📖
 Use the Input class to create the menu and sub-menus
     
-### Unique Id
+## Unique Id
 To create a unique id, you can use an exernal package,<a href="https://www.npmjs.com/package/uuid">uuid</a> along with <a href="https://www.npmjs.com/package/@types/uuid">@types/uuid</a> package to get this package working with types, for that here is an example on how to use the package:
   
+```
+  $ npm install uuid
+  $ npm install --save @types/uuid 
+```
+  
+```typescript
+    import { v4 as uuidv4 } from 'uuid';
+    let uniqueId = uuidv4(); // this would return a unique id  
+```
+
+    
+## Start Code 
+### Index.ts
+```typescript
+    import Main from './Main';
+
+    const program = new Main();
+    program.start();
+```
+### Main.ts
+```typescript
+   import Menu from './models/Menu';
+export default class Main {
+  async start() {
+    const menu = new Menu();
+    await menu.showMainMenu();
+  }
+}   
+```
+### Demostration
+    
