@@ -1,3 +1,6 @@
+### Tuesday 🗓️   
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻</a>
+
 # Wednesday 🗓️
 ## Build Tower
 
@@ -119,3 +122,5 @@ export function meeting(s: string): string {
 }
 ```
 
+### Thursday 🗓️   
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻</a>
