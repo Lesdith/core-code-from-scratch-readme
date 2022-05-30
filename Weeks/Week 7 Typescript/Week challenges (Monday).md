@@ -5,105 +5,67 @@
 
 ### Description 📖
 <ul>
-  <li>You can read about the package <a href="https://www.npmjs.com/package/enquirer">here</a> the idea is that you can see what can be done with it. </li>
+  You can read about the package <a href="https://www.npmjs.com/package/enquirer">here</a> the idea is that you can see what can be done with it.
 </ul>
 
-### More Help?
-Slack us 😉
+### Download and start the example project 📖
+<ul>
+  <center>
+  You can find the example project <a href="https://github.com/corecodeio/devguide-from-scratch-2022-   02/blob/main/src/technologies/2022/week07/exercises/e00/desc/assets/inout.zip">here</a> , download the project and unzip it, then install the packages for the project (npm install) and try the project (npm start), check for the Main class. pd: to compile the typescript files, remember to use npx tsc --w 😉.
+  </center>
+</ul>
 
-## Solutions
-### CORE CODE 
-```javascript
-function findMissingLetter(array) {
-  const missing = array
-    .map((letter) => letter.charCodeAt())
-    .find((code, i, charCodeArray) => {
-      if (i === 0) return false;
-      return code - 1 != charCodeArray[i - 1];
-    });
-  return String.fromCharCode(missing - 1);
-}
-```
-### Mi Solution
+###  Input class 
+<ul> 
+    The Input class is the required class for the input and oput in our example project, you can see that it is using the enquirer package, check this class on the example project or <a href"https://github.com/corecodeio/devguide-from-scratch-2022-02/blob/main/src/technologies/2022/week07/exercises/e00/desc/assets/Input.ts"> here </a>.
+</ul>
 
-```javascript
-function findMissingLetter(array)
-{
-   var string = array.join("");
-  for (var i = 0; i < string.length; i++) {
-    if (string.charCodeAt(i + 1) - string.charCodeAt(i) != 1) {
-      return String.fromCharCode(string.charCodeAt(i) + 1);
-    }
+###  Input class Documentation
+### Input
+<ul> 
+  <li>
+    Function: 
+    <ul>
+      <li> 
+      getInput
+      </li>
+    </ul>
+  </li>
+  <li>
+  Arguments: 
+    <ul>
+      <li> 
+     message (string)t
+      </li>
+    </ul>
+  </li>
+   <li>
+  Output: 
+    <ul>
+      <li> 
+        Object
+      </li>
+    </ul>
+  </li>
+</ul> 
+
+
+
+### Example Code: 😉
+```Typescript
+import { Input } from './Input';
+export class Main {
+  async start() {
+    // Get a single input prompt
+    let input = await Input.getInput('Where are you from?');
+    console.log(input);
   }
 }
 ```
+### Output
 
-## Reverse Or Rotate?
-
-### KATA #2
-The input is a string str of digits. Cut the string into chunks (a chunk here is a substring of the initial string) of size sz (ignore the last chunk if its size is less than sz).
-
-<p>If a chunk represents an integer such as the sum of the cubes of its digits is divisible by 2, reverse that chunk; otherwise rotate it to the left by one position. Put together these modified chunks and return the result as a string.</p>
-
-If
-<ul> 
-  <li> sz is <= 0 or if str is empty return ""</li>
-  <li> sz is greater (>) than the length of str it is impossible to take a chunk of size sz hence return "". </li> </ul>
-  
-### Example:
-***revrot("123456987654", 6) --> "234561876549"***
-
-### Helpful Resources 📖
-<ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp">RegExp - MDN</a> </li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match">match - MDN</a> </li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map - MDN</a> </li> 
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow">Math.pow - MDN</a> </li> 
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">reduce - MDN</a> </li> 
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split">split - MDN</a> </li> 
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift">shift - MDN</a> </li> 
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse">reverse - MDN</a> </li> 
-</ul> 
-
-### More Help?
-
-Slack us 😉
-
-## Solutions
-### CORE CODE 
-```javascript
-function revrot(str, sz) {
-  if (sz <= 0 || sz >= str.length || str === '') return '';
-  let regex = new RegExp(`\\d{${sz}}`, 'g');
-  let chunks = str.match(regex);
-  let sum = 0;
-  let chunkArray = [];
-  let result = chunks.map((chunk) => {
-    sum = chunk
-      .split('')
-      .map((digit) => Math.pow(+digit, 3))
-      .reduce((prev, curr) => prev + curr, 0);
-    chunkArray = chunk.split('');
-    if (sum % 2 === 0) return chunkArray.reverse().join('');
-    return chunkArray.push(chunkArray.shift()), chunkArray.join('');
-  });
-  return result.join('');
+```Typescript
+{
+  data: 'Guatemala',
 }
 ```
-### Mi Solution
-```javascript
-function revrot(str, sz) {
-   ln = str.length;
-   if(sz < 1 || !str || sz > ln) return "";
-
-   const test = s => Array.prototype.reduce.call(s, (acc, val) => acc + Number(val) ** 3, 0) % 2 === 0;
-   const reverse = s => s.split("").reverse().join("");
-   const rotate = s => s.slice(1) + s.slice(0, 1);
-
-   let arr = [];
-   for(let i = 0; i < ln; i += sz) arr.push(i+sz <= ln ? str.slice(i, i+sz) : "")
-   return arr.map(x => test(x) ? reverse(x) : rotate(x)).join("");
-}
-```
-
-
