@@ -1,3 +1,7 @@
+### Monday 🗓️   
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Monday).md"> Week challenges (Monday) 💻</a>
+    
+
 # Tuesday 🗓️
 ## Menu
 ### Description 
