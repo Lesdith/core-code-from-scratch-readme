@@ -2,19 +2,16 @@
 Lear about Typescript and Object Oriented Programming introduction
 <H2>Week subtopics</H2>
 <ul>
-<li>What is npm?</li>
-<li>package.json</li>
-<li>What is npx?</li>
-<li>What is Typescript?</li>
-<li>Relation between Typescript and Javascript</li>
-<li>Typescript Hello World</li>
- <li>Introduction to Object Oriented Programming</li>
-   <ul><li>Abstraction</li>
-      <li>Inheritance</li>
-      <li>Polymorphism</li>
-     <li>Encapsulation</li>
-   </ul>
-</ul>
+ <li>Data Modifiers</li>
+  <ul>
+   <li> Public</li>
+   <li> Private</li>
+   <li> Protected</li>
+  </ul>
+ <li>Interfaces</li>
+ <li>Function types</li>
+ <li>Input & Output wit console</li>
+<ul>
 
   
 
