@@ -1,3 +1,6 @@
+### BACK TO Wednesday 🗓️   
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻</a>
+
 # Thursday 🗓️
 ## READ 📖
 <ul>
@@ -6,4 +9,5 @@
   <li>Read <a href="https://sbcode.net/typescript/abstract_classes/">Abstract Classes </a> </li> 
 </ul>
 
-
+### BACK TO TOP 🗓️   
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%207.md"> Week 7 💻</a>
