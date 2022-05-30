@@ -188,5 +188,5 @@ export default class Main {
 ### Demostration
     
 ### Continuation    
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Wednesday)"> Week challenges (Wednesday) 💻</a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻</a>
     
