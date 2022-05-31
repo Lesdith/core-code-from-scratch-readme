@@ -6,9 +6,10 @@
 
 # Tuesday 🗓️
 ## Leer #1
-<ul> <a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a></ul>
+<a href="https://www.typescriptlang.org/docs/handbook/intro.html">TypeScript Handbook</a>
+
 ## Leer #2
-<ul> <a href="https://blog.logrocket.com/types-vs-interfaces-in-typescript/">Type vs interface in TypeScript</a></ul>
+<a href="https://blog.logrocket.com/types-vs-interfaces-in-typescript/">Type vs interface in TypeScript</a>
 
 ## Exercise No.1 OBJECT TYPE: Given the data, define the interface "User" and use it accordingly.
 <a href="https://typescript-exercises.github.io/#exercise=1">Object Type</a>
