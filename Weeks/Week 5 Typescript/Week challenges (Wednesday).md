@@ -1,4 +1,4 @@
-# BACK TO TOP
+# BACK 
 <ul>
 <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> WEEK 5 </a> </li>
 <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻 </a> </li>
@@ -13,6 +13,6 @@
   <li>Learn about<a href="https://www.youtube.com/watch?v=m_MQYyJpIjg">Fundamental Concepts of Object Oriented Programming</a> </li> 
 </ul>
 
-## CONTINUE WEDNESDAY
+## NEXT
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻 </a> 
 
