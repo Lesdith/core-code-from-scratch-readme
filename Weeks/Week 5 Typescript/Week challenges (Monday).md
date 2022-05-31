@@ -1,4 +1,4 @@
-# BACK TO TOP
+# BACK 
 
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> WEEK 5 </a>
 
