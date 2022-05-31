@@ -28,8 +28,16 @@ const thai = {
 <p> <center> I'm Lesvia, Systems Engineer. Currently I have only developed University Projects, I would like to be able to specialize and expand my knowledge as a software developer that helps solve problems in multinational companies. I am a self-taught and committed person who likes challenges.</center> </p></h2>
 
 
+# CORE CODE 
+## WEEKS
 
-
-
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%201%20Introduction%20to%20programming%20%26%20javascript/Week%201.md"> Week 1 : Introduction to programming & Javascript <a/>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%202%20Javascript/Week%202.md"> Week 2 Javascript </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%203%20Javascript/Week%203.md"> Week 3 : Javascript </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20%26%20pause%20day/Week%204.md"> Week 4 : End Of Month & Pause Day </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> Week 5 : Typescript </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%206%20Typescript/Week%206.md"> Week 6 : Typescript </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%207.md"> Week 7 : Typescript </a>
+<a href=""> </a>
 
 
