@@ -240,7 +240,7 @@ Slack us 😉
 
 ## Solutions
 ### CORE CODE 
-```typescript
+```javascript
 function solveTTT(b) {
   var xwin = [
     [0, 1, 2],
@@ -260,7 +260,7 @@ function solveTTT(b) {
 ```
 ### Mi Solution
 
-```typescript
+```javascript
 function solveTTT(b) {
   var xwin=[ [0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6] ];
   for (var i in xwin) if (xwin[i].map(x=>b[x]).join("")=="XX") return xwin[i].reduce((x,y)=>b[y]=="" ? x+y : x,0);
@@ -308,7 +308,8 @@ Slack us 😉
 
 ## Solutions
 ### CORE CODE 
-```typescript
+
+```javascript
 const pad = (str, char) => char + str + char;
 const row = (arr) => arr.map((x) => pad(x, ' ')).join('|');
 const line = (w) => pad([...Array(w)].fill('---').join('-'), '\n');
@@ -322,7 +323,7 @@ const displayBoard = (board, width) =>
 
 ### Mi Solution
 
-```typescript
+```javasscript
 function displayBoard(board, width){
   let result = "";
   for (let i = 0; i < board.length; i++) {
