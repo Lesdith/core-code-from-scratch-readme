@@ -208,6 +208,6 @@ export function warnTheSheep(queue: string[]): string {
 }
 ```
 
-## CONTINUE WITH TUESDAY
- <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Tuesday).md">Week challenges (Tuesday) 💻</a> 
+## NEXT
+ <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%206%20Typescript/Week%20challenges%20(Tuesday)%20.md">Week challenges (Tuesday) 💻</a> 
 
