@@ -25,7 +25,7 @@ Lear about Typescript and Object Oriented Programming introduction
 
  
 # Week Links
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20links.md" Typescript - Playgroud </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20links.md"> Typescript - Playgroud </a>
 
 
 
