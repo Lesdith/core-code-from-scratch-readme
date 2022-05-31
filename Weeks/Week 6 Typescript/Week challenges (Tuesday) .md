@@ -208,15 +208,16 @@ The board is represented as an array with the following indexes:
 ```
 For example, the following board would be represented as
 
-``
+```
 solveTTT(['', '', '', 'O', '', '', 'X', '', ''])
-
+```
+```
    |   |  
 ---+---+---
  O |   |  
 ---+---+---
  X |   |   
-``
+```
 Valid outputs for the above input would be 0, 1, 2, 4, 5, 7 or 8.
 
 The following board would only have 1 correct output (2) because it is the only move that connects 3 X's in a row:
@@ -287,11 +288,11 @@ Now, to spice up things a bit, we are going to expand our board well beyond a tr
 
 For example, for "O", "X", " ", " ", "X", " ", "X", "O", " ", "O"] (same as above, just one extra "O") and knowing that the length of each row is 5, you will be returning
 
-``
+```
  O | X |   |   | X 
 -------------------
    | X | O |   | O 
-``
+```
 And worry not about missing elements, as the array/list/vector length is always going to be a multiple of the width.
 
 
