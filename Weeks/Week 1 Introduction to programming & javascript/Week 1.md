@@ -1,3 +1,7 @@
+## BACK 
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme"> INICIO </a>
+
+
 # Tuesday 🗓️
 ## Interpreted And Compiled Programming Languages 
 Compiled languages are automatically prepared to run, a bit flexible and require compilation, while interpreted languages are cross-platform, easy to test, bugs are much easier to catch, an interpreter is required, their source code is publicly accessible and they are often slow.
