@@ -323,7 +323,7 @@ const displayBoard = (board, width) =>
 
 ### Mi Solution
 
-```javasscript
+```javascript
 function displayBoard(board, width){
   let result = "";
   for (let i = 0; i < board.length; i++) {
