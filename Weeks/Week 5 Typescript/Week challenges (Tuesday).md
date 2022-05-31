@@ -1,4 +1,4 @@
-# BACK TO TOP
+# BACK 
 <ul>
 <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> WEEK 5 </a> </li>
 <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Monday).md"> Week challenges (Monday) 💻 </a> </li>
@@ -204,5 +204,5 @@ console.log('Users:');
 persons.filter(isUser).forEach(logPerson);
 ```
 
-## CONTINUE WEDNESDAY
+## NEXT
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻 </a> 
