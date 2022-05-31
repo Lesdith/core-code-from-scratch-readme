@@ -119,5 +119,5 @@ function revrot(str, sz) {
 }
 ```
 
-## CONTINUE WITH TUESDAY
+## NEXT
  <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Tuesday).md">Week challenges (Tuesday) 💻</a> 
