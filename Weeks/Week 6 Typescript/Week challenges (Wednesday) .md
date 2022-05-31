@@ -135,17 +135,11 @@ Arrays are written in "general" notation. See "Your Test Cases" for examples in 
 In Shell bash a1 and a2 are strings. The return is a string where words are separated by commas.
 Beware: r must be without duplicates.
 
-
-
-
-
-
-
-
-
 ### Helpful Resources 📖
 <ul>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map - MDN</a> </li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter">filter - MDN</a> </li>  
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find">find - MDN</a> </li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort">sort - MDN</a> </li>
 </ul>
 
 ### More Help?
@@ -154,71 +148,65 @@ Slack us 😉
 ## Solutions
 ### CORE CODE 
 ```typescript
-export function validBraces(braces: string): boolean {
-  while (/\(\)|\[\]|\{\}/g.test(braces)) {
-    braces = braces.replace(/\(\)|\[\]|\{\}/g, '');
+export class G964 {
+  public static inArray(a1: string[], a2: string[]): string[] {
+    return a1
+      .filter((a: string) => a2.some((b: string) => b.includes(a)))
+      .sort();
   }
-  return braces.length === 0;
 }
 ```
 ### Mi Solution
 
 ```typescript
-export function validBraces(braces: string): boolean 
-{
-  while (/\(\)|\[\]|\{\}/g.test(braces))
-  {
-    braces = braces.replace(/\(\)|\[\]|\{\}/g,"")
-  }
- return !braces.length;
+export class G964 {
+  public static inArray(a1: string[], a2: string[]): string[] {
+    return a1.filter(x => a2.join().indexOf(x) > -1).sort();
+}
 }
 ```
 
 
-## Tic-Tac-Toe
+## Sums Of Parts
 
 ### KATA #4
-Tic-Tac-Toe
+Sums Of Parts
 
-Implement a Tic-Tac-Toe (AKA: Noughts and crosses, Xs and Os) solver. The input to the solver function will be an array of length 9 representing the board. Output of the function will be the index of the desired move (0-8). You will always be X. You must make a valid move, and a winning move if available.
+Let us consider this example (array written in general format):
 
-The board is represented as an array with the following indexes:
+ls = [0, 1, 3, 6, 10]
 
-```
-0 | 1 | 2
----+---+---
- 3 | 4 | 5
----+---+---
- 6 | 7 | 8 
+Its following parts:
 
 ```
-For example, the following board would be represented as
+ls = [0, 1, 3, 6, 10]
+ls = [1, 3, 6, 10]
+ls = [3, 6, 10]
+ls = [6, 10]
+ls = [10]
+ls = []
 
 ```
-solveTTT(['', '', '', 'O', '', '', 'X', '', ''])
-```
-```
-   |   |  
----+---+---
- O |   |  
----+---+---
- X |   |   
-```
-Valid outputs for the above input would be 0, 1, 2, 4, 5, 7 or 8.
+The corresponding sums are (put together in a list): [20, 20, 19, 16, 10, 0]
 
-The following board would only have 1 correct output (2) because it is the only move that connects 3 X's in a row:
+The function parts_sums (or its variants in other languages) will take as parameter a list ls and return a list of the sums of its parts as defined above.
+
+Other Examples:
 
 ```
-solveTTT(['O', '', '', 'O', 'X', '', 'X', 'O', 'X'])
+ls = [1, 2, 3, 4, 5, 6] 
+parts_sums(ls) -> [21, 20, 18, 15, 11, 6, 0]
 
+ls = [744125, 935, 407, 454, 430, 90, 144, 6710213, 889, 810, 2579358]
+parts_sums(ls) -> [10037855, 9293730, 9292795, 9292388, 9291934, 9291504, 9291414, 9291270, 2581057, 2580168, 2579358, 0]
 ```
-
+Notes
+Take a look at performance: some lists have thousands of elements.
+Please ask before translating.
 
 ### Helpful Resources 📖
 <ul>
- <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map - MDN</a> </li>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"> forEach - MDN</a>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map">Map - MDN</a> </li>
+ <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce">reduce - MDN</a> </li>
 </ul>
 
 ### More Help?
@@ -226,66 +214,60 @@ Slack us 😉
 
 ## Solutions
 ### CORE CODE 
-```javascript
-function solveTTT(b) {
-  var xwin = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6],
-  ];
-  for (var i in xwin)
-    if (xwin[i].map((x) => b[x]).join('') == 'XX')
-      return xwin[i].reduce((x, y) => (b[y] == '' ? x + y : x), 0);
-  for (var i in b) if (b[i] == '') return +i;
+```typescript
+export function partsSums(ls: number[]): number[] {
+  let total = ls.reduce((acc, cur) => acc + cur, 0);
+  return [...[total], ...ls.map((num) => (total -= num))];
 }
 ```
 ### Mi Solution
 
-```javascript
-function solveTTT(b) {
-  var xwin=[ [0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6] ];
-  for (var i in xwin) if (xwin[i].map(x=>b[x]).join("")=="XX") return xwin[i].reduce((x,y)=>b[y]=="" ? x+y : x,0);
-  for (var i in b) if (b[i]=="") return +i;
+```typescript
+export function partsSums(ls: number[]): number[] {
+  let result = [0],
+      l = 0,
+      i = ls.length;
+      
+  while (i--) result.push(l += ls[i]);
+  return result.reverse();
 }
 ```
 
-## Tic-Tac-Toe-Like Table Generator
+## Consecutive Strings
 ### Kata #5
-Tic-Tac-Toe-Like Table Generator
+Consecutive Strings
 
-Do you have in mind the good old TicTacToe?
+You are given an array(list) strarr of strings and an integer k. Your task is to return the first longest string consisting of k consecutive strings taken in the array.
 
-Assuming that you get all the data in one array, you put a space around each value, | as a columns separator and multiple - as rows separator, with something like ["O", "X", " ", " ", "X", " ", "X", "O", " "] you should be returning this structure (inclusive of new lines):
-
-```
- O | X |   
------------
-   | X |   
------------
- X | O |   
+Examples:
 
 ```
-Now, to spice up things a bit, we are going to expand our board well beyond a trivial 3 x 3 square and we will accept rectangles of big sizes, still all as a long linear array.
+strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"], k = 2
 
-For example, for "O", "X", " ", " ", "X", " ", "X", "O", " ", "O"] (same as above, just one extra "O") and knowing that the length of each row is 5, you will be returning
+Concatenate the consecutive strings of strarr by 2, we get:
 
+treefoling   (length 10)  concatenation of strarr[0] and strarr[1]
+folingtrashy ("      12)  concatenation of strarr[1] and strarr[2]
+trashyblue   ("      10)  concatenation of strarr[2] and strarr[3]
+blueabcdef   ("      10)  concatenation of strarr[3] and strarr[4]
+abcdefuvwxyz ("      12)  concatenation of strarr[4] and strarr[5]
+
+Two strings are the longest: "folingtrashy" and "abcdefuvwxyz".
+The first that came is "folingtrashy" so 
+longest_consec(strarr, 2) should return "folingtrashy".
+
+In the same way:
+longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
 ```
- O | X |   |   | X 
--------------------
-   | X | O |   | O 
-```
-And worry not about missing elements, as the array/list/vector length is always going to be a multiple of the width.
+
+n being the length of the string array, if n = 0 or k > n or k <= 0 return "" (return Nothing in Elm).
+
+Note
+consecutive strings : follow one after another without an interruption
 
 
 ### Helpful Resources 📖
 <ul>
- <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map">map - MDN</a> </li>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace"> replace - MDN</a>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"> slice - MDN</a> </li>
 </ul>
 
@@ -295,40 +277,31 @@ Slack us 😉
 ## Solutions
 ### CORE CODE 
 
-```javascript
-const pad = (str, char) => char + str + char;
-const row = (arr) => arr.map((x) => pad(x, ' ')).join('|');
-const line = (w) => pad([...Array(w)].fill('---').join('-'), '\n');
-const reshape = (arr, w, res = []) =>
-  arr.length > 0
-    ? reshape(arr.slice(w), w, res.concat([arr.slice(0, w)]))
-    : res;
-const displayBoard = (board, width) =>
-  reshape(board, width).map(row).join(line(width));
+```typescript
+export function longestConsec(strarr: string[], k: number): string {
+  let max = '';
+  const n = strarr.length;
+  for (let i = 0; i <= n - k && k > 0 && k <= n; i++) {
+    const newStr = strarr.slice(i, i + k).join('');
+    max = max.length >= newStr.length ? max : newStr;
+  }
+  return max;
+}
 ```
 
 ### Mi Solution
 
-```javascript
-function displayBoard(board, width){
-  let result = "";
-  for (let i = 0; i < board.length; i++) {
-    if (i > 0 && i % width === 0) {
-      result += "---".repeat(width) + "-".repeat(width - 1) + "\n";
-    }
-
-    result += " " + board[i] + " ";
-
-    if (i + 1 < board.length) {
-      if ((i + 1) % width === 0) result += "\n";
-      else result += "|";
-    }
-  }
-  return result;
+```typescript
+export function longestConsec(strarr: string[], k: number): string {
+ if (k > strarr.length || k < 1) return '';
+  return strarr.reduce(function(prevLongest, c, i, a) {
+    var str = a.slice(i, i + k).join('');
+    return str.length > prevLongest.length ? str : prevLongest;
+  }, '');
 }
 ```
 
 ## NEXT
- <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%206%20Typescript/Week%20challenges%20(Wednesday)%20.md">Week challenges (Wednesday) 💻</a> 
+ <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%206%20Typescript/Week%20challenges%20(Thursday).md">Week challenges (Thursday) 💻</a> 
 
 
