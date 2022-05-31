@@ -126,5 +126,5 @@ export function meeting(s: string): string {
 }
 ```
 
-### Thursday 🗓️   
+### FOLLOWING 🗓️   
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%207%20Typescript/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻</a>
