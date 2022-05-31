@@ -19,8 +19,8 @@ Lear about Typescript and Object Oriented Programming introduction
 <ul>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Monday).md">Week challenges (Monday) 💻</a> </li>
    <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Tuesday).md">Week challenges (Tuesday) 💻 </a> </li> 
+  <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻 </a> </li>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Thursday).md">Week challenges (Thursday) 💻 </a> </li> 
- <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻 </a> </li>
 </ul> 
 
  
