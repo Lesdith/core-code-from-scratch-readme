@@ -1,3 +1,7 @@
+# BACK TO TOP
+
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> WEEK 5 </a>
+
 # Monday 🗓️
 ## Find The Missing Letter
 
@@ -115,4 +119,5 @@ function revrot(str, sz) {
 }
 ```
 
-
+## CONTINUE WITH TUESDAY
+   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Tuesday).md">Tuesday</a> </li> 
