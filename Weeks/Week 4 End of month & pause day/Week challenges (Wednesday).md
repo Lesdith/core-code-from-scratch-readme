@@ -1,6 +1,7 @@
 # BACK
 <ul>
 <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20%26%20pause%20day/Week%204.md"> WEEK 4  </a> </li>
+  <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20&%20pause%20day/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻 </a> </li>
 </ul>
 
 
@@ -98,4 +99,7 @@ function getNumberFromString(s) {
   .join(''));
 } 
 ```
-
+# NEXT
+<ul>  
+ <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20&%20pause%20day/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻 </a> </li>
+</ul>
