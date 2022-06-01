@@ -1,7 +1,6 @@
 # BACK
 <ul>
-<li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%205.md"> WEEK 5 </a> </li>
-<li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻 </a> </li>
+<li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20%26%20pause%20day/Week%204.md"> WEEK 4  </a> </li>
 </ul>
 
 
@@ -24,7 +23,7 @@ Length should be between 4 and 16 characters (both included).
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Regular Expressions</a> </li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test">test - MDN</a> </li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes">Character Classes - MDN</a> </li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Groups_and_Ranges"></a> Groups And Ranges - MDN </li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Groups_and_Ranges"> Groups And Ranges - MDN</a>  </li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Quantifiers">Quantifiers - MDNN</a> </li>
   <li><a href="https://regexr.com/"></a>Regexr Tool</li>
 </ul>
