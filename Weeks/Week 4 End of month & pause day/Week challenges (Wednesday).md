@@ -25,7 +25,7 @@ Length should be between 4 and 16 characters (both included).
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Character_Classes">Character Classes - MDN</a> </li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Groups_and_Ranges"> Groups And Ranges - MDN</a>  </li>
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Quantifiers">Quantifiers - MDNN</a> </li>
-  <li><a href="https://regexr.com/"></a>Regexr Tool</li>
+  <li><a href="https://regexr.com/">Regexr Tool</a></li>
 </ul>
 
 ### More Help?
