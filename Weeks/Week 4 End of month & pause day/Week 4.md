@@ -44,7 +44,7 @@ Javascript End Of Month & Pause Day
 </ol>
 
  
- 
+ # Week challenge
  <ul>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20%26%20pause%20day/Week%20challenges%20(Wednesday).md">Week challenges (Wednesday) 💻</a> </li>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%204%20End%20of%20month%20&%20pause%20day/Week%20challenges%20(Thursday).md">Week challenges (Thursday) 💻 </a> </li> 
@@ -53,6 +53,8 @@ Javascript End Of Month & Pause Day
  
   
 # Week Links
-<a href="https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4"> Regular Expressions In Javascript Reading </a>
-<a href="https://blog.alexdevero.com/regular-expressions-javascript/"> Methods That Use Regular Expressions In Javascript </a>
+<ul>
+<li>
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4"> Regular Expressions In Javascript Reading </a></li>
+<li><a href="https://blog.alexdevero.com/regular-expressions-javascript/"> Methods That Use Regular Expressions In Javascript </a></li>
  
