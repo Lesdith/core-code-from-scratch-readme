@@ -29,7 +29,9 @@ Lear about Typescript and Object Oriented Programming introduction
 
  
 # Week Links
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%205%20Typescript/Week%20links.md"> Typescript - Playgroud </a>
+<a href="https://blog.bitsrc.io/a-beginners-guide-to-regular-expressions-regex-in-javascript-9c58feb27eb4"> Regular Expressions In Javascript Reading </a>
+<a href="https://blog.alexdevero.com/regular-expressions-javascript/"> Methods That Use Regular Expressions In Javascript </a>
+
 
 
 
