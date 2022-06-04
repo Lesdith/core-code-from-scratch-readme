@@ -1,18 +1,11 @@
 
 # BACK 
 <ul>
-<li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%208.md"> WEEK 9 </a> </li>
+<li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%208.md"> WEEK 8 </a> </li>
 </ul>
 
 # Monday 🗓️
-## Find The Missing Letter
 
-### Input/Output
-
-### Description 📖
-<ul>
-  You can read about the package <a href="https://www.npmjs.com/package/enquirer">here</a> the idea is that you can see what can be done with it.
-</ul>
 
 ###  Input class Documentation
 ### Input
