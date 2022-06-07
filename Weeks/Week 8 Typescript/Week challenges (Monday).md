@@ -6,7 +6,12 @@
 
 # Monday 🗓️
 
-
+## READ 📖
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/learn/modules/typescript-get-started/">Get Started With TypeScript </a>guided exercise, using Typescript</li>
+  <li><a href="https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/">Declare Variable Types In TypeScript   </a> guided exercise, using Typescript</li>
+  <li>Watch  <a href="https://www.youtube.com/watch?v=pTB0EiLXUC8">Object-Oriented Programming - Resume  </a> video</li> 
+</ul
 
 
 ### NEXT
