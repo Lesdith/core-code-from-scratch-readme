@@ -87,5 +87,5 @@ export function parse(data: string): number[] {
 
 ### NEXT
 
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%20challenges%20(Wednesday)%20.md"> Week challenges (Wednesday) 💻
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%20challenges%20(Thursday)%20.md"> Week challenges (Thursday) 💻
 </a>
