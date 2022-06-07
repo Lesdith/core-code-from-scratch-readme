@@ -5,6 +5,12 @@
 
 # Tuesday 🗓️
 
+## READ 📖
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/learn/modules/typescript-develop-typed-functions/"Develop typed functions by using TypeScript</a> guided exercise, using Typescript</li>
+  <li><a href="https://docs.microsoft.com/en-us/learn/modules/typescript-declare-instantiate-classes/">Declare and instantiate classes in TypeScript </a> guided exercise, using Typescript</li>
+  <li>Watch <a href="https://www.youtube.com/watch?v=Lnqmde9LP74">Abstract Classes </a> video</li> 
+</ul>
 
 
 
