@@ -1,4 +1,4 @@
-```
+```javascript
 const { sum, subs } = require("./operations");
 
 let Core = 0.5;
