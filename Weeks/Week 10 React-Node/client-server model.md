@@ -1,4 +1,4 @@
-### Questions :question:   
+# Questions :question:   
 <table>    
   <tr>
     <td>What is a Server?</td>
@@ -14,23 +14,27 @@
   </tr>    
   <tr>
     <td>Is there any similarity between human communication and the client-server model?</td>
-    <td>:satellite_antenna:Yes, for example the Sender-Message-Channel-Receiver Model of Communication</td>
+    <td>>🌠 Yes, for example the Sender-Message-Channel-Receiver Model of Communication</td>
   </tr>    
   <tr>
     <td> Is the client-server model applicable only to the Web?</td>
     <td>🌠 Not necessarily, it's possible to processes data locally relying on a server to store persistent data.</td>
   </tr>   
-</table>      > **Is a server just another physical computer?**   
+</table>   
+
+> ## Is a server just another physical computer?
 <table>    
   <tr>
     <td>Why do we refer to a certain class of applications as Servers?</td>    
-    <td>:satellite_antenna:Usually are network computers that store and run an application for client computers, and their function, occupy a large chunk of computing territory between database servers and the end user.</td>
+    <td>>🌠 Usually are network computers that store and run an application for client computers, and their function, occupy a large chunk of computing territory between database servers and the end user.</td>
   </tr>    
   <tr>
     <td>What is the difference?</td>   
     <td>🌠 hey may need to connect to other servers to acquire information or provide services.</td>
   </tr>  
-</table>      > **Is the client-server model applicable only to the Web?**   
+</table>  
+
+> ## Is the client-server model applicable only to the Web?
 <table>    
   <tr>
     <td>Can you mention any other example of this model outside the Web?</td>
