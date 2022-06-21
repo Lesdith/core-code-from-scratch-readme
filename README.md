@@ -43,7 +43,7 @@ const thai = {
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%208.md"> Week 8 : Typescript</a></li>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%209%20Typescript%20End%20Of%20Month%20%26%20Pause%20Day/Week%209.md"> Week 09 :  End Of Month & Pause Day</a></li>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/tree/main/Weeks/Week%2010%20React-Node"> Week 10 : React / Node</a></li>
-  <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/tree/main/Weeks/Week%2010%20React-Node"> Week 11 : Node / Databases</a></li>
+  <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%2011.md"> Week 11 : Node / Databases</a></li>
   </ul>
 
 
