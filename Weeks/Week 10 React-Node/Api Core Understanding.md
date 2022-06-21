@@ -43,9 +43,12 @@
     Do you know any API? Can you list at least 5 examples of APIs?
   </td>
   <td>
-    <a href="#" class="fa fa-facebook"></a>
-    :ballot_box_with_check:
-    :ballot_box_with_check:
+  <div>
+    <span class='fa-stack fa-lg'>
+        <i class='far fa-square fa-stack-2x'></i>
+        <i class='fab fa-twitter fa-stack-1x'></i>
+    </span>
+    </div>
   </td>
   </tr>
 </table>
