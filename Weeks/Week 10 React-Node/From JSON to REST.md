@@ -74,7 +74,7 @@
     Why do we use HTTP methods in REST and how do they relate to resources?
   </td>
   <td>
-      This basic set of methods can be referred to as CRUD. Each method works the same way across all CA SDM resources. An HTTP client library is required and is available with most programming languages. Use the HTML client library to perform the following tasks:
+     :pushpin: This basic set of methods can be referred to as CRUD. Each method works the same way across all CA SDM resources. An HTTP client library is required and is available with most programming languages. Use the HTML client library to perform the following tasks:
       Access and modify associated (or related) resources using a multilevel URI path.Send an HTTP request to the server for the resource you want to manipulate.
       Control the object attributes that should be returned using HTTP headers.
   </td>
