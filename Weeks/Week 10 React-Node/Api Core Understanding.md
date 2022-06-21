@@ -38,17 +38,24 @@
     :pushpin: Not because APIs allow the end user to use an application, software or even a simple spreadsheet, querying, changing and storing data from different systems, without the user having to access them directly.
   </td>
   </tr>
+  <tr> 
+  <td>
+    Is an API just another program or a standard?
+  </td>
+  <td>
+    It is considered a type of web development architecture that is fully supported by the HTTP standard. Therefore it is not a protocol or a standard but rather a set of architectural limits.
+  </td> 
+  </tr>
   <tr>
   <td>
     Do you know any API? Can you list at least 5 examples of APIs?
   </td>
   <td>
-  <div>
-    <span class='fa-stack fa-lg'>
-        <i class='far fa-square fa-stack-2x'></i>
-        <i class='fab fa-twitter fa-stack-1x'></i>
-    </span>
-    </div>
+<img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="50">  
+<img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="50">
+<img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="50">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888846.png" width="50">
+<img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="50">
   </td>
   </tr>
 </table>
