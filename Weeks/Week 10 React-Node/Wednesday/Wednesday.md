@@ -7,7 +7,7 @@
   <ul>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Nodejs%20Module.md"> Node.JS Core Understanding </a> Learning Exercise 🧠</li>
   <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Nodejs.md"> Node.JSNode.JS Module System Core Understanding </a> Learning Exercise 🧠</li>
-    <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Nodejs%20Modele%20Practice.md">Node.JS Module System</a> Practice 💻</li>
+    <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/tree/main/Weeks/Week%2010%20React-Node/Wednesday/Ejercicio">Node.JS Module System</a> Practice 💻</li>
     <li><a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/client-server%20model.md"> Client-Server Model</a> Learning Exercise 🧠</li>
 </ul>
 
