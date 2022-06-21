@@ -2,29 +2,30 @@
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme"> INICIO </a>
 
 <H2>Week goal</H2>
-Learn about React/Node.JS and its capabilities
+Learn about Databases and their integration with Javascript through Node.JS
 <H2>Week subtopics</H2>
 
   <ul>
-   <li> React Project Overview</li>
-   <li> React Project Overview</li>
-   <li> Why does Node.JS exist?</li>
-   <li> What is Javascript runtime?</li>
-   <li> What are the differences between Node.JS and a web browser?</li>
-   <li> Node.JS module system</li>
-   <li> Type intersection</li>
-   <li> Node.JS capabilities</li>
-   <li> Client-Server Model</li>
-   <li> What is an API?</li>
-  <li> Express</li>
+   <li> Endpoint Routes</li>
+   <li> Express.JS Middlewares</li>
+   <li> Request Handlers</li>
+   <li> Database basics</li>
   <ul>
-     <li> Express App</li>
-     <li> Request modifiers (middlewares)</li>
-     <li> Request Object</li>
-     <li> Response Object</li>
-     <li> Next function</li>
-  </ul>
-  <li> Postman</li>
+     <li> SQLite</li>
+     <li> Schema Creation</li>
+     <li> Tables</li>
+     <li> Queries</li>
+  <ul>
+    <li> Select</li></li>
+    <li> Insert</li></li>
+    <li> Update</li></li>
+    <li> Delete</li></li>
+     </ul>
+      </ul>
+       <li> Database Connection</li></li>
+       <li> Node.JS REST API</li></li>
+       <li> Final Project
+</li></li>
 </ul>
  
  ### Days of week
