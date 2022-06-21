@@ -52,7 +52,7 @@ export const EasterEgg = (props) => {
  ### Days of week
  <ul>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%208%20Typescript/Week%20challenges%20(Wednesday)%20.md"> Week challenges (Wednesday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Wednesday.md"> Week challenges (Wednesday) 💻 </a>
  </li>
  </ul>
 
