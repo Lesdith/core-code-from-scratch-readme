@@ -1,9 +1,16 @@
 ## BACK
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Week%2010.md">WEEK 10</a>
 
-<H2>Week goal</H2> Week challenges (Tuesday)<H2>Week subtopics</H2>
+# Forrest Gump Ping-Pong API 🏓:
+Create a simple REST API with which you can play ping-pong.
+
+## API Requeriments:
   <ul>
-  <li>Watch this <a href="https://www.youtube.com/watch?v=N3AkSS5hXMA"> video </a></li>
+  <li>Use Express JS to build the API.</a></li>
+   <li>Use any port you want for the API.</a></li>
+    <li></a></li>
+   <li>Watch this <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY"> video </a></li>
+    <li>Watch this <a href="https://www.youtube.com/watch?v=N3AkSS5hXMA"> video </a></li>
    <li>Watch this <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY"> video </a></li>
 </ul>
 
