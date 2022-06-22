@@ -31,7 +31,7 @@ Learn about Databases and their integration with Javascript through Node.JS
  ### Days of week
  <ul>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Monday).md"> Week challenges (Wednesday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Monday).md"> Week challenges (Monday) 💻 </a>
  </li>
   <li>
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Tuesday/Tuesday.md"> Week challenges (Tuesday) 💻 </a>
