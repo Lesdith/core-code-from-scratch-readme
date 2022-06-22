@@ -37,7 +37,7 @@ Echa un vistazo a este proyecto e inspírate.
  ### Days of week
  <ul>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Wednesday.md"> Week challenges (Wednesday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻 </a>
  </li>
  </ul>
 
