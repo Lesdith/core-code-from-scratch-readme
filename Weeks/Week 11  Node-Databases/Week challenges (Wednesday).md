@@ -99,6 +99,9 @@ At the end of the challenge you should be able to get a JSON containing the user
    <li> Your request should look like this one:</li>
 </ul>
 
+<img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Imagen1.png" width="50"> 
+
+
 
 
  ### Days of week
