@@ -99,8 +99,42 @@ At the end of the challenge you should be able to get a JSON containing the user
    <li> Your request should look like this one:</li>
 </ul>
 
-<img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Imagen1.png" width="50"> 
+<img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Imagen1.png" width="750"> 
 
+
+
+### Recommendations
+ <ul>
+  <li> Read, Play and Analyze the code.</li>
+   <li> If you feel stuck, read the suggested resources, ask the team for help, or search it on Google.</li>
+</ul>
+
+### What to deliver
+
+If you managed to hack the API and get the github account, congratulations!
+
+Now you need to create a new issue in the repository of the hacked API. The issue name must follow the following structure:
+
+pentest-report/<your-hacker-name/your-team-name/>
+
+The issue description must contain an explanation of how you managed to hack the API and, if you wish, a recommendation on how to fix it.
+
+### Challenge Rules
+ <ul>
+  <li> If you feel stuck you can ask the team for help, but the explanation and submission of your github issue is personal.
+</li>
+   <li> In this challenge you can work alone, or with as many people as you want. If you want to organize the whole team to solve it, you can do it, this challenge is free and you can work with whoever you wan</li>
+</ul>
+
+### Challenge resources
+Here you have a list of useful resources that can help you with the challenge:
+
+ <ul>
+  <li> <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object_prototypes" >Object Prototypes </a></li>
+ <li> <a href="https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/" >  Javascript Type Coercion</a></li>
+ <li> <a href="https://en.wikipedia.org/wiki/Base64" >Base64</a></li>
+ <li> <a href="https://attacomsian.com/blog/nodejs-base64-encode-decode" > Node.JS Base 64 Encoding - Decoding</a></li>
+</ul>
 
 
 
