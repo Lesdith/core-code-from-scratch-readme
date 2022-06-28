@@ -1,6 +1,7 @@
 ## BACK
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme"> INICIO </a>
 
+
 <H2>Week goal</H2>
 Typescript End Of Month & Pause Day
 <H2>Week subtopics</H2>
