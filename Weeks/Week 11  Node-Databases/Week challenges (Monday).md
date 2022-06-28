@@ -64,9 +64,3 @@ x
 Echa un vistazo a este proyecto e inspírate.
 ⚠️ Nota: El proyecto de muestra es antiguo y usa código heredado, trate de no copiarlo.
 
-
-
-## Do you feel stuck?
-Echa un vistazo a este proyecto e inspírate.
-⚠️ Nota: El proyecto de muestra es antiguo y usa código heredado, trate de no copiarlo.
-
