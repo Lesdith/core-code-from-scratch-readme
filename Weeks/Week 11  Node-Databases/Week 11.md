@@ -34,13 +34,13 @@ Learn about Databases and their integration with Javascript through Node.JS
 <a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Monday).md"> Week challenges (Monday) 💻 </a>
  </li>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Tuesday/Tuesday.md"> Week challenges (Tuesday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻 </a>
  </li>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Wednesday/Wednesday.md"> Week challenges (Wednesday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Wednesday).md"> Week challenges (Wednesday) 💻 </a>
  </li>
   <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2010%20React-Node/Thursday/Thursday.md"> Week challenges (Thursday) 💻 </a>
+<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Thursday).md"> Week challenges (Thursday) 💻 </a>
  </li>
  </ul>
 
