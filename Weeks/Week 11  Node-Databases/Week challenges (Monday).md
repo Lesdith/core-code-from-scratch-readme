@@ -40,13 +40,7 @@ Echa un vistazo a este proyecto e inspírate.
 Create a simple REST API that receives a request containing a number that represents a delay
 in milliseconds. The API should respond to the request after the delay specified in the request has expired.
 
- ### Days of week
- <ul>
-  <li>
-<a href="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Week%20challenges%20(Tuesday).md"> Week challenges (Tuesday) 💻 </a>
- </li>
- </ul>
-
+x
 
 ## API Requeriments:
   <ul>
@@ -72,4 +66,7 @@ Echa un vistazo a este proyecto e inspírate.
 
 
 
+## Do you feel stuck?
+Echa un vistazo a este proyecto e inspírate.
+⚠️ Nota: El proyecto de muestra es antiguo y usa código heredado, trate de no copiarlo.
 
