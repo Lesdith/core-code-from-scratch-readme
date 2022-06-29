@@ -60,9 +60,21 @@ x
     <li>If no delay is provided in the request, the API should use 1000 as default.</li>
 </ul>
 
-## Do you feel stuck?
-Echa un vistazo a este proyecto e inspírate.
-⚠️ Nota: El proyecto de muestra es antiguo y usa código heredado, trate de no copiarlo.
+## Example
+
+```express
+const express = require('express')
+const api = express()
+
+api.get("/api/delay/:delay", function(request, response){
+    const delay = request.params.delay;
+     setTimeout(function(){response.send("Hello World!")}, delay)
+})
+
+api.listen(3000, function() {
+    console.log("Server running on http://localhost:3000/api/delay/3000")
+});
+```
 
 
  ### Days of week
