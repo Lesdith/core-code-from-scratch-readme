@@ -128,6 +128,9 @@ The issue description must contain an explanation of how you managed to hack the
 ### Challenge resources
 Here you have a list of useful resources that can help you with the challenge:
 
+# EXAMPLE
+<img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Captura.PNG" width="750"> 
+
  <ul>
   <li> <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/Object_prototypes" >Object Prototypes </a></li>
  <li> <a href="https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/" >  Javascript Type Coercion</a></li>
