@@ -30,9 +30,11 @@ Create a simple REST API with which you can play ping-pong.
   </ul>
 </ul>
 
-## Do you feel stuck?
-Echa un vistazo a este proyecto e inspírate.
-⚠️ Nota: El proyecto de muestra es antiguo y usa código heredado, trate de no copiarlo.
+## Example
+
+```
+
+```
 
 
  # Example 2
