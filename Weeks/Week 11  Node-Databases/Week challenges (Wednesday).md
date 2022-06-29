@@ -128,7 +128,7 @@ The issue description must contain an explanation of how you managed to hack the
 ### Challenge resources
 Here you have a list of useful resources that can help you with the challenge:
 
-# EXAMPLE
+# SOLUTION
 <img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Captura.PNG" width="750"> 
 
  <ul>
