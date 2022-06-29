@@ -30,11 +30,9 @@ Create a simple REST API with which you can play ping-pong.
   </ul>
 </ul>
 
-## Example
+## SOLUTION
 
-```
-
-```
+<img src="https://github.com/Lesdith/core-code-from-scratch-readme/blob/main/Weeks/Week%2011%20%20Node-Databases/Imagen1.png" width="750"> 
 
 
  # Example 2
